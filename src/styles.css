@@ -13,6 +13,10 @@
   --fcc-separator-color: #fff; /* color of colon */
 }
 
+html, body, .logo {
+  height:100%;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -49,6 +53,8 @@ video {
   justify-content: flex-start;
   align-items: center;
   color: white;
+  max-height: 100%;
+  overflow: auto;
 }
 
 .logo h1 {
