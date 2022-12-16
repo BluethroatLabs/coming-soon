@@ -6,7 +6,7 @@ import logo from '../src/assets/1-removebg-preview.png';
 import './styles.css';
 
 // import video
-import videoBg from '../src/assets/Itachi.mp4';
+import videoBg from '../src/assets/video.mp4';
 
 const googleFormURL = `https://docs.google.com/forms/d/e/1FAIpQLSdjb_Kuu4yQNQMvpDBVe8hzhrkVnIMxn-lGx5Ho1yA9V-bR9g/viewform?usp=sf_link`;
 
