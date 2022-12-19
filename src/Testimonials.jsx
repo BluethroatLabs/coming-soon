@@ -30,18 +30,12 @@ const Testimonial = () => {
   }
 
   return (
-    <div
-      className="quote" >
+    <div className="quote" >
       <p><i>{current.quote}</i></p>
       <p>{current.client}</p>
-      <div
-        className="cards">
+      <div className="cards">
         {Object.keys(quotes).map(index => (
-          <span
-            onClick={event => handleSetClick(event)}
-            data-quote={index}
-            key={index}
-          />
+          <button onClick={event => handleSetClick(event)} data-quote={index}> {++index } </button>
         ))}
       </div>
     </div>

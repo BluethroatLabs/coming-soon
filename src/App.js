@@ -32,7 +32,7 @@ const App = () => {
             <br />
             <br />
             <h1>Word on the street</h1>
-            <hr width="20%" color="green" />
+            <hr width="20%" color="#9f9e9e" />
             <Testimonial />
         </div>
     </div>
