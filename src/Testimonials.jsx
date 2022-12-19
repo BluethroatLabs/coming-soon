@@ -35,7 +35,7 @@ const Testimonial = () => {
       <p>{current.client}</p>
       <div className="cards">
         {Object.keys(quotes).map(index => (
-          <button onClick={event => handleSetClick(event)} data-quote={index}> {++index } </button>
+          <button onClick={event => handleSetClick(event)} data-quote={index} key={index}> {++index } </button>
         ))}
       </div>
     </div>
