@@ -16,7 +16,7 @@ const Testimonial = () => {
     2: {
         client: `Kalpita, Engineering @Marlin`,
         quote: 
-        "You will come across only a few as diligent and RIDICULOUSLY EFFICIENT engineers as Rahul. His attention to detail has helped ELIMINATE MULTIPLE VULNERABILITIES from our protocol. His Make-It-Happen attitude is a bonus."
+        "You will come across only a few RIDICULOUSLY EFFICIENT engineers as Rahul. His attention to detail has helped ELIMINATE MULTIPLE VULNERABILITIES from our protocol."
     }
   }
 
