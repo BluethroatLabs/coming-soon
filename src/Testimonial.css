@@ -1,0 +1,44 @@
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px auto;
+    max-width: 700px;
+}
+
+.quote p {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+
+  .cards {
+    display: flex;
+  }
+
+  .cards span {
+    height: 20px;
+    width: 20px;
+    margin: 0 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .cards span::before {
+    content: "";
+    height: 6px;
+    width: 6px;
+    background-color: #d4d4d4;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+  }
+
+  .cards span:hover::before {
+    background-color: #45454d;
+  }
+
+  .cards span[data-quote="${active}"]::before {
+    background-color: #45454d;
+  }

@@ -7,11 +7,13 @@ import './styles.css';
 
 // import video
 import videoBg from '../src/assets/video.mp4';
+import Testimonial from './Testimonials';
 
 const googleFormURL = `https://docs.google.com/forms/d/e/1FAIpQLSdjb_Kuu4yQNQMvpDBVe8hzhrkVnIMxn-lGx5Ho1yA9V-bR9g/viewform?usp=sf_link`;
 
 const App = () => {
   return (
+    <>
     <div className='main'>
         <div className='overlay'></div>
         <video src={videoBg} autoPlay loop muted/>
@@ -27,8 +29,14 @@ const App = () => {
                 {new Date().getTime() + Math.round((new Date("2023-01-01").getTime() - new Date().getTime()))}
             />
             <a href={googleFormURL} target='_blank'><button className='btn' >register interest</button></a>
+            <br />
+            <br />
+            <h1>Word on the street</h1>
+            <hr width="20%" color="green" />
+            <Testimonial />
         </div>
     </div>
+    </>
   );
 };
 
