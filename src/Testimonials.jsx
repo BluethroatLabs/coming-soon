@@ -9,7 +9,7 @@ const Testimonial = () => {
       quote:
         "I went and sought out three general code reviews. Rahul's was the highest quality I received! 25+ action items and not a single one was fluff or padding.",
     },
-    2: {
+    1: {
       client: `metadev.eth ᵍᵐ (🫡,🇮🇳) , Twitter: @poyimone`,
       quote: 
       `Detailed report. It's really great to have a second set of eyes look through the code and to make sure all the bugs are patched. No one could have done it better than Rahul. Excellent writeup and a detailed review. It was precise and I learned a lot.`
@@ -40,8 +40,8 @@ const Testimonial = () => {
 
   return (
     <div className="quote" >
-      <p><i>{quotes[state.num % 3].quote}</i></p>
-      <p>{quotes[state.num % 3].client}</p>
+      <p><i>{quotes[state.num % 4].quote}</i></p>
+      <p>{quotes[state.num % 4].client}</p>
     </div>
   )
 }
