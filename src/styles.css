@@ -76,6 +76,7 @@ video {
 }
 
 .btn {
+  display: block;
   width: 240px;
   height: 64px;
   background: #fff;
@@ -88,6 +89,25 @@ video {
   font-weight: 700;
   cursor: pointer;
 }
+
+#button1, #button2{
+  width: 200px;
+  height: 45px;
+  background: #fff;
+  color: #000;
+  font-size: 1rem;
+  font-family: 'Poppins';
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 0.4rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+  
+  #butn{
+      margin: 0 auto;
+      display: block;
+  }
 
 /* screens bigger than 900px */
 @media (min-width: 900px) {
