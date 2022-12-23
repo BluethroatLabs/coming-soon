@@ -69,6 +69,10 @@ video {
   margin-bottom: 3rem;
 }
 
+.logo a {
+  color: rgb(0, 247, 0);
+}
+
 .flip-clock {
   font-family: 'Orbitron';
   font-weight: 700;
