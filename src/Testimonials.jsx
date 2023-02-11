@@ -23,6 +23,11 @@ const Testimonial = () => {
         client: `Kalpita, Engineering @Marlin`,
         quote: 
         "You will come across only a few RIDICULOUSLY EFFICIENT engineers as Rahul. His attention to detail has helped ELIMINATE MULTIPLE VULNERABILITIES from our protocol."
+    },
+    4: {
+      client: `Dev Team, Brahma Finance`,
+      quote:
+      `One of the best audit experience we have been a part of. Rahul (and Parth) were great to work with. Their attention to details on contract design and adversarial thinking helped us along the audit process. They have delivered a well structured and comprehensive audit report.`
     }
   }
 
@@ -40,8 +45,8 @@ const Testimonial = () => {
 
   return (
     <div className="quote" >
-      <p><i>{quotes[state.num % 4].quote}</i></p>
-      <p>{quotes[state.num % 4].client}</p>
+      <p><i>{quotes[state.num % 5].quote}</i></p>
+      <p>{quotes[state.num % 5].client}</p>
     </div>
   )
 }

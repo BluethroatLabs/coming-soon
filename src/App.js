@@ -22,22 +22,21 @@ const App = () => {
       <video src={videoBg} autoPlay loop muted/>
         <div className='logo'>
             <img src={logo} />
-            <h1>Launching Soon</h1>
+            <h1>Services Offered</h1>
             <h3>
-              Pre-launch offer: Get a <b>free</b> high-level preliminary <b>security review</b> plus a <b>test coverage chart</b> (<a href={sampleTestCoverage} target='_blank'>Sample</a>) when you register 
+              <ul>
+                <li align="left">Designing and implementing your testing infrastructure (DO NOT ASK ME TO USE HARDHAT)</li>
+                <li align="left">Smart contract auditing and threat modeling</li>
+                <li align="left">Protocol designing and architecture</li>
+                <li align="left">High level business and/or technical overviews of protocols</li>
+                <li align="left">Training your team on safety driven programming</li>
+              </ul>
             </h3>
-            <FlipClockCountdown
-              className='flip-clock'
-              to=
-                {new Date().getTime() + Math.round((new Date("2023-01-01").getTime() - new Date().getTime()))}
-            />
-            <a href={googleFormURL} target='_blank'><button className='btn' >register interest</button></a> 
+            <h3>
+              For a <b>free</b> high-level preliminary <b>security review</b> plus a (<a href={sampleTestCoverage} target='_blank'>Sample</a>) <b>test coverage chart,</b> <a href="mailto: saxenism.crypto@gmail.com" target="_blank">contact us</a> 
+            </h3>
             &nbsp;
-            <div id="butn">
-              <a href={blogsURL} target='_blank'><button type="button home-button" id="button1" >read our blogs</button></a>
-              &nbsp;
-              <a href={sampleReportURL} target='_blank'><button type="button contact-button" id="button2">sample report</button></a>
-            </div>
+            <a href={sampleReportURL} target='_blank'><button className='btn' >sample report</button></a>
             <br />
             <br />
             <h1>Word on the street</h1>
