@@ -19,7 +19,6 @@ const App = () => {
     <>
     <div className='main'>
     <div className='overlay'></div>
-      <video src={videoBg} autoPlay loop muted/>
         <div className='logo'>
             <img src={logo} />
             <h1>Services Offered</h1>
